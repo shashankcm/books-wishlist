@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component should take a snapshot 1`] = `
+<DocumentFragment>
+  <main>
+    <div
+      class="book__search"
+    >
+      <form
+        class="book__search--search__form"
+      >
+        <fieldset>
+          <legend>
+            Search Books
+          </legend>
+          <label
+            for="book_search"
+          >
+            Book Name
+          </label>
+          <input
+            aria-label="bookSearch"
+            class="book__search--search__input"
+            id="book_search"
+            name="book search"
+            placeholder="Search for books to add to your reading list and press Enter"
+            type="search"
+            value=""
+          />
+        </fieldset>
+      </form>
+      <div
+        class="book__search--container"
+      />
+    </div>
+    <div
+      class="book__wishlist"
+    >
+      <h3
+        class="book__wishlist--reading__list"
+      >
+        My Reading Wishlist (
+        <span
+          data-testid="numberOfWishlistBooks"
+        >
+          0
+        </span>
+        )
+      </h3>
+      <div
+        class="book__wishlist--selected__book"
+        data-testid="listOfBooks"
+      >
+        <ol />
+      </div>
+    </div>
+  </main>
+</DocumentFragment>
+`;
+
+exports[`Book Component should add books to my reading wishlist when you click on 'Add to wishlist': Javascript IS Awesome 1`] = `
+<div
+  class="book__container--header__info--title"
+  data-testid="title"
+>
+  Javascript IS Awesome
+</div>
+`;
+
+exports[`Book Component should not add the same book to My Reading Wishlist more than 1 times: Javascript IS Awesome 1`] = `
+<div
+  class="book__container--header__info--title"
+  data-testid="title"
+>
+  Javascript IS Awesome
+</div>
+`;
+
+exports[`Book Component should render Book with given data example title should be 'Javascript IS Awesome': 1980-10-10 1`] = `
+<div
+  class="book__container--header__info--published"
+  data-testid="published"
+>
+  1980-10-10
+</div>
+`;
+
+exports[`Book Component should render Book with given data example title should be 'Javascript IS Awesome': Javascript 1`] = `
+<div
+  class="book__container--header__info--publisher"
+  data-testid="publisher"
+>
+  Javascript
+</div>
+`;
+
+exports[`Book Component should render Book with given data example title should be 'Javascript IS Awesome': Javascript IS Awesome 1`] = `
+<div
+  class="book__container--header__info--title"
+  data-testid="title"
+>
+  Javascript IS Awesome
+</div>
+`;
+
+exports[`Book Component should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="book__container"
+  >
+    <div
+      class="book__container--header"
+    >
+      <img
+        alt="Javascript IS Awesome"
+        class="book__container--header__img"
+        src="http://books.google.com/books/content?id=ptiYBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      />
+      <div
+        class="book__container--header__info"
+      >
+        <div>
+          <label
+            for="Title"
+          >
+            Title: 
+          </label>
+          <div
+            class="book__container--header__info--title"
+            data-testid="title"
+          >
+            Javascript IS Awesome
+          </div>
+        </div>
+        <div>
+          <label>
+            Authors: 
+          </label>
+          <div
+            class="book__container--header__info--author"
+            data-testid="author"
+          >
+            Java, Script, 
+          </div>
+        </div>
+        <div>
+          <label>
+            Publisher: 
+          </label>
+          <div
+            class="book__container--header__info--publisher"
+            data-testid="publisher"
+          >
+            Javascript
+          </div>
+        </div>
+        <div>
+          <label>
+            Published Date: 
+          </label>
+          <div
+            class="book__container--header__info--published"
+            data-testid="published"
+          >
+            1980-10-10
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="book__container--description"
+    >
+      Learn Javascript
+    </div>
+    <div
+      class="book__container--button__container"
+    >
+      <button
+        data-testid="addToWishList"
+        type="button"
+      >
+        Add to wishlist
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BookSearch Component should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="book__search"
+  >
+    <form
+      class="book__search--search__form"
+    >
+      <fieldset>
+        <legend>
+          Search Books
+        </legend>
+        <label
+          for="book_search"
+        >
+          Book Name
+        </label>
+        <input
+          aria-label="bookSearch"
+          class="book__search--search__input"
+          id="book_search"
+          name="book search"
+          placeholder="Search for books to add to your reading list and press Enter"
+          type="search"
+          value=""
+        />
+      </fieldset>
+    </form>
+    <div
+      class="book__search--container"
+    />
+  </div>
+</DocumentFragment>
+`;

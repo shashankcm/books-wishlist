@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component should take a snapshot 1`] = `
+<DocumentFragment>
+  <main>
+    <div
+      class="book__search"
+    >
+      <form
+        class="book__search--search__form"
+      >
+        <fieldset>
+          <legend>
+            Search Books
+          </legend>
+          <label
+            for="book_search"
+          >
+            Book Name
+          </label>
+          <input
+            aria-label="bookSearch"
+            class="book__search--search__input"
+            id="book_search"
+            name="book search"
+            placeholder="Search for books to add to your reading list and press Enter"
+            type="search"
+            value=""
+          />
+        </fieldset>
+      </form>
+      <div
+        class="book__search--container"
+      />
+    </div>
+    <div
+      class="book__wishlist"
+    >
+      <h3
+        class="book__wishlist--reading__list"
+      >
+        My Reading Wishlist (
+        <span
+          data-testid="numberOfWishlistBooks"
+        >
+          0
+        </span>
+        )
+      </h3>
+      <div
+        class="book__wishlist--selected__book"
+        data-testid="listOfBooks"
+      >
+        <ol />
+      </div>
+    </div>
+  </main>
+</DocumentFragment>
+`;

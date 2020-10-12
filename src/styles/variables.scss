@@ -19,3 +19,25 @@ $spacing-med: 2.5rem;
 $spacing-lg: 1.625rem;
 $spacing-xl: 5rem;
 $spacing-xxl: 7.5rem;
+
+$small-screen-max: 596px;
+$medium-screen-max: 768px;
+$large-screen-max: 1440px;
+
+@mixin sm {
+  @media (max-width: #{$small-screen-max}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (max-width: #{$medium-screen-max}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (max-width: #{$large-screen-max}) {
+    @content;
+  }
+}
